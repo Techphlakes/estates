@@ -1,0 +1,69 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+.image-border{
+           border: 6px solid #ffd700; 
+           
+}
+
+img {
+    margin-right: 40px; /* 
+ }
+
+ /* New section for the horizontal navigation */
+}
+.nav-bar {
+    background-color: white;
+    color: #ffd700; /* Yellow font color */
+    padding: 10px 20px; /* Adjusted padding for the new section */
+    text-align: center;
+}
+
+.nav-bar a {
+    margin: 30px; /* Add some spacing between the navigation links */
+    text-decoration: none;
+    color: #ffd700; /* Yellow font color */
+    font-size:1.5rem; /* Adjust font size to be smaller than h1 */
+}
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+   
+}
+
+/* Add a container for the images with flexbox styles */
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px; /* Adjust as needed */
+}
+
+.image-border {
+    /* Your existing styles for image borders */
+    margin-bottom: 25px; /* Add spacing between images */
+    border-radius: 50px;
+}
+
+/* Your existing styles for the rest of the document */
+
+
+  /* Defines the style for unvisited links */
+a:any-link a:visited {
+    color: #ffd700; /* Yellow color */
+    text-decoration: underline;
+  }
+  
+  /* Styles a link when the mouse is over it */
+  a:hover {
+    color: #ffffff; /* White color on hover */
+  }
+

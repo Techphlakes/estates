@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Account</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Apply background styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: url('https://wallpapercave.com/wp/wp6781247.jpg') no-repeat center center fixed; /* Replace this URL with your preferred image */
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Centered form styling */
+        .login-container {
+            background-color: rgba(39, 39, 70, 0.9); /* Slightly transparent */
+            color: #ffffff;
+            font-size: 20px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            width: 300px;
+            text-align: center;
+        }
+
+        /* Form input styling */
+        input, button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Button styling */
+        button {
+            background-color: #ffc107; /* Yellow theme to match header */
+            color: #000;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #e0a800;
+        }
+
+        /* Link styling */
+        a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header styling */
+        h1 {
+            color: #ffc107;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/login" method="POST" class="login-container">
+        <h1>My Account</h1>
+        <label for="username">Username or Email:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+        <p><a href="/forgot-password">Forgot Password?</a> | <a href="/signup">Sign Up</a></p>
+    </form>
+</body>
+</html>
